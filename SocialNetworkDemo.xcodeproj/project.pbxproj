@@ -16,6 +16,20 @@
 		B85A77B51F2CC71F0082A0FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77B41F2CC71F0082A0FF /* ViewController.swift */; };
 		B85A77B91F2CC7960082A0FF /* SignInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77B81F2CC7960082A0FF /* SignInVc.swift */; };
 		B85A77BB1F2CC7C60082A0FF /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77BA1F2CC7C60082A0FF /* BaseVc.swift */; };
+		B85A77BE1F2D03860082A0FF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77BD1F2D03860082A0FF /* Post.swift */; };
+		B85A77C11F2D03C00082A0FF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77C01F2D03C00082A0FF /* DataService.swift */; };
+		B85A77C41F2D03FA0082A0FF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77C31F2D03FA0082A0FF /* FeedVC.swift */; };
+		B85A77ED1F2D04900082A0FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77EC1F2D04900082A0FF /* Constants.swift */; };
+		B85A77F41F2D04E40082A0FF /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77EE1F2D04E40082A0FF /* FancyView.swift */; };
+		B85A77F51F2D04E40082A0FF /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77EF1F2D04E40082A0FF /* RoundBtn.swift */; };
+		B85A77F61F2D04E40082A0FF /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77F01F2D04E40082A0FF /* FancyField.swift */; };
+		B85A77F71F2D04E40082A0FF /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77F11F2D04E40082A0FF /* FancyBtn.swift */; };
+		B85A77F81F2D04E40082A0FF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77F21F2D04E40082A0FF /* CircleView.swift */; };
+		B85A77F91F2D04E40082A0FF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A77F31F2D04E40082A0FF /* PostCell.swift */; };
+		B85A77FE1F2D06A00082A0FF /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85A77FA1F2D06A00082A0FF /* GoogleToolboxForMac.framework */; };
+		B85A77FF1F2D06A00082A0FF /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85A77FB1F2D06A00082A0FF /* GTMSessionFetcher.framework */; };
+		B85A78001F2D06A00082A0FF /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85A77FC1F2D06A00082A0FF /* nanopb.framework */; };
+		B85A78011F2D06A00082A0FF /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85A77FD1F2D06A00082A0FF /* SwiftKeychainWrapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +45,20 @@
 		B85A77B41F2CC71F0082A0FF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B85A77B81F2CC7960082A0FF /* SignInVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVc.swift; sourceTree = "<group>"; };
 		B85A77BA1F2CC7C60082A0FF /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		B85A77BD1F2D03860082A0FF /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B85A77C01F2D03C00082A0FF /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B85A77C31F2D03FA0082A0FF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B85A77EC1F2D04900082A0FF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B85A77EE1F2D04E40082A0FF /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		B85A77EF1F2D04E40082A0FF /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		B85A77F01F2D04E40082A0FF /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		B85A77F11F2D04E40082A0FF /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		B85A77F21F2D04E40082A0FF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		B85A77F31F2D04E40082A0FF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		B85A77FA1F2D06A00082A0FF /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "Pods/../build/Release-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		B85A77FB1F2D06A00082A0FF /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Pods/../build/Release-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		B85A77FC1F2D06A00082A0FF /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "Pods/../build/Release-iphoneos/nanopb/nanopb.framework"; sourceTree = "<group>"; };
+		B85A77FD1F2D06A00082A0FF /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = "Pods/../build/Release-iphoneos/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"; sourceTree = "<group>"; };
 		EDA2BA011AAA113E5714EABC /* Pods-SocialNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetworkDemo/Pods-SocialNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85A77FE1F2D06A00082A0FF /* GoogleToolboxForMac.framework in Frameworks */,
+				B85A77FF1F2D06A00082A0FF /* GTMSessionFetcher.framework in Frameworks */,
+				B85A78001F2D06A00082A0FF /* nanopb.framework in Frameworks */,
+				B85A78011F2D06A00082A0FF /* SwiftKeychainWrapper.framework in Frameworks */,
 				1453D9B0BEB2C20EF600C05D /* Pods_SocialNetworkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +108,9 @@
 		B85A779C1F2CBE840082A0FF /* SocialNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B85A77EB1F2D04880082A0FF /* Global_Data */,
+				B85A77C01F2D03C00082A0FF /* DataService.swift */,
+				B85A77BF1F2D03B40082A0FF /* Services */,
 				B85A77B11F2CC6C10082A0FF /* Model */,
 				B85A77B21F2CC6DA0082A0FF /* View */,
 				B85A77B31F2CC6E10082A0FF /* Controller */,
@@ -92,6 +127,7 @@
 		B85A77B11F2CC6C10082A0FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B85A77BC1F2D037A0082A0FF /* Post */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +135,12 @@
 		B85A77B21F2CC6DA0082A0FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B85A77EE1F2D04E40082A0FF /* FancyView.swift */,
+				B85A77EF1F2D04E40082A0FF /* RoundBtn.swift */,
+				B85A77F01F2D04E40082A0FF /* FancyField.swift */,
+				B85A77F11F2D04E40082A0FF /* FancyBtn.swift */,
+				B85A77F21F2D04E40082A0FF /* CircleView.swift */,
+				B85A77F31F2D04E40082A0FF /* PostCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +148,7 @@
 		B85A77B31F2CC6E10082A0FF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B85A77C21F2D03EE0082A0FF /* Feed */,
 				B85A77B61F2CC7850082A0FF /* Base */,
 				B85A77B71F2CC7850082A0FF /* SignIn */,
 				B85A77B41F2CC71F0082A0FF /* ViewController.swift */,
@@ -129,9 +172,44 @@
 			path = SignIn;
 			sourceTree = "<group>";
 		};
+		B85A77BC1F2D037A0082A0FF /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				B85A77BD1F2D03860082A0FF /* Post.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		B85A77BF1F2D03B40082A0FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B85A77C21F2D03EE0082A0FF /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B85A77C31F2D03FA0082A0FF /* FeedVC.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		B85A77EB1F2D04880082A0FF /* Global_Data */ = {
+			isa = PBXGroup;
+			children = (
+				B85A77EC1F2D04900082A0FF /* Constants.swift */,
+			);
+			path = Global_Data;
+			sourceTree = "<group>";
+		};
 		C88AD4406C9B6F6D31C89958 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B85A77FA1F2D06A00082A0FF /* GoogleToolboxForMac.framework */,
+				B85A77FB1F2D06A00082A0FF /* GTMSessionFetcher.framework */,
+				B85A77FC1F2D06A00082A0FF /* nanopb.framework */,
+				B85A77FD1F2D06A00082A0FF /* SwiftKeychainWrapper.framework */,
 				649A1F2D459869A117AC74A9 /* Pods_SocialNetworkDemo.framework */,
 			);
 			name = Frameworks;
@@ -263,9 +341,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B85A77B51F2CC71F0082A0FF /* ViewController.swift in Sources */,
+				B85A77F51F2D04E40082A0FF /* RoundBtn.swift in Sources */,
+				B85A77C41F2D03FA0082A0FF /* FeedVC.swift in Sources */,
+				B85A77F41F2D04E40082A0FF /* FancyView.swift in Sources */,
 				B85A779E1F2CBE840082A0FF /* AppDelegate.swift in Sources */,
 				B85A77B91F2CC7960082A0FF /* SignInVc.swift in Sources */,
+				B85A77F71F2D04E40082A0FF /* FancyBtn.swift in Sources */,
+				B85A77F91F2D04E40082A0FF /* PostCell.swift in Sources */,
+				B85A77C11F2D03C00082A0FF /* DataService.swift in Sources */,
+				B85A77F81F2D04E40082A0FF /* CircleView.swift in Sources */,
 				B85A77BB1F2CC7C60082A0FF /* BaseVc.swift in Sources */,
+				B85A77BE1F2D03860082A0FF /* Post.swift in Sources */,
+				B85A77F61F2D04E40082A0FF /* FancyField.swift in Sources */,
+				B85A77ED1F2D04900082A0FF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +480,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QJ2UV5N3C8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GoogleToolboxForMac",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GTMSessionFetcher",
+					"$(PROJECT_DIR)/build/Release-iphoneos/nanopb",
+					"$(PROJECT_DIR)/build/Release-iphoneos/SwiftKeychainWrapper",
+				);
 				INFOPLIST_FILE = SocialNetworkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -407,6 +502,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QJ2UV5N3C8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GoogleToolboxForMac",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GTMSessionFetcher",
+					"$(PROJECT_DIR)/build/Release-iphoneos/nanopb",
+					"$(PROJECT_DIR)/build/Release-iphoneos/SwiftKeychainWrapper",
+				);
 				INFOPLIST_FILE = SocialNetworkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
